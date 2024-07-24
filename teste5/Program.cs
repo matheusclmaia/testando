@@ -5,7 +5,7 @@ internal class Program
     private static void Main(string[] args)
     {
         string nome = "joão";
-        Console.WriteLine("Hello, World!     "+ nome);
+        Console.WriteLine("Hello, World! {0}", nome);
         Console.ReadKey();
     }
 }
